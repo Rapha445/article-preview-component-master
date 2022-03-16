@@ -27,10 +27,12 @@ html {
     list-style: none;
   }
 
-.main {
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: hsl(210, 46%, 95%);
-    overflow: hidden;
-    height: 100vh;
 }  
   
 .main__preview {
